@@ -9,6 +9,6 @@ pool:
 steps:
 
 - task: PythonScript@0
-  inputs: 5
+  inputs:
     scriptSource: 'filePath'
     scriptPath: 'add.py'
