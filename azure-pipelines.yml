@@ -11,6 +11,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      javac HelloWorld.java
+      javac AddTwoNumbers.java
       
-      HelloWorld.java
+      AddTwoNumbers.java
