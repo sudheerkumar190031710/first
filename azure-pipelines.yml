@@ -8,7 +8,9 @@ pool:
 
 steps:
 
-- task: PythonScript@0
+- task: CmdLine@2
   inputs:
-    scriptSource: 'filePath'
-    scriptPath: 'add.py'
+    script: |
+      javac HelloWorld.java
+      
+      HelloWorld.java
